@@ -6,4 +6,6 @@ import com.desafio.digitalinnovatione.padraoProjeto.entity.Endereco;
 
 public interface EnderecoRepository extends JpaRepository<Endereco, String> {
 
+	void deleteByCep(String cep);
+
 }
